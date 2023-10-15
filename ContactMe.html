@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CMstyle.css"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact Me</title>
+</head>
+<body class="contactme-background">
+    <div class="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+
+        <nav class="colored-nav"> 
+            <a href="index.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="ContactMe.html">Contact Me</a>
+        </nav>
+
+        <main>
+            <form class="contact-form">
+                <label for="name" class="colored-label">Name</label>
+                <input type="text" id="name" name="name" class="colored-input-name" required><br> 
+
+                <label for="email" class="colored-label">Email</label>
+                <input type="email" id="email" name="email" class="colored-input-email" required><br> 
+
+                <label for="subject" class="colored-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="colored-input-subject" required><br> 
+                <label for="message" class="colored-label">Message</label>
+                <textarea id="message" name="message" class="colored-input-message" required></textarea><br> 
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </div>
+</body>
+</html>

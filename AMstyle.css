@@ -1,0 +1,43 @@
+.colored-header {
+    background-color: #4B778D; 
+    color: #E0EBEB; 
+}
+
+.colored-nav a {
+    color: #4B778D; 
+}
+
+.colored-nav a.active {
+    font-weight: bold;
+}
+
+.colored-heading {
+    color: #4B778D; 
+}
+
+.introduction-colored-paragraph,
+.hobby-colored-paragraph {
+    color: #333; 
+}
+
+.container {
+    border: 1px solid #4B778D; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.colored-header {
+    background-color: #4B778D; 
+    color: #E0EBEB; 
+    padding: 10px;
+}
+
+.main-content {
+    margin-top: 20px; 
+}
+
+.soccerball-image {
+    max-width: 100%; 
+    height: auto; 
+}

@@ -1,0 +1,38 @@
+.body-class {
+    background-color: #E0EBEB; 
+}
+
+.header-class {
+    background-color: #4B778D; 
+    color: #E0EBEB; 
+}
+
+.nav-class a {
+    color: #4B778D; 
+}
+
+.nav-class a.active {
+    font-weight: bold; 
+}
+
+.title-class, .section-title-class {
+    color: #4B778D; 
+}
+
+.text-class {
+    color: #555; 
+}
+
+.image-class {
+    border: 2px solid #4B778D;
+}
+
+.form-class, .button-class {
+    background-color: #4B778D; 
+    color: #E0EBEB; 
+}
+
+.footer-class {
+    background-color: #4B778D; 
+    color: #E0EBEB; 
+}
